@@ -133,9 +133,8 @@ a {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
-
 .team-title {
   text-transform: capitalize;
   font-weight: 700;
@@ -150,11 +149,9 @@ a {
 }
 
 .team-item {
-  background-color: #ffffff;
 }
 
 .team-item-img {
-  background-color: #ffffff;
 }
 
 .team-subtitle {
