@@ -25,13 +25,7 @@ a {
   color: #4d5ae5;
 }
 
-.accent {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.header-accent {
   color: #2e2f42;
 }
 
@@ -139,7 +133,7 @@ a {
 }
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -159,6 +153,7 @@ a {
 }
 
 .team-item-img {
+  background-color: #ffffff;
 }
 
 .team-subtitle {
