@@ -102,6 +102,9 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.studio-link {
+  color: #404bbf;
+}
 .studio-link::after {
   border-radius: 2px;
   width: 100%;
@@ -110,7 +113,7 @@ img {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   background-color: #404bbf;
 }
 
@@ -129,6 +132,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-link:hover {
   font-size: 16px;
@@ -183,6 +187,7 @@ img {
   min-width: 169px;
   margin: 0 auto;
   border: 0;
+  transition: backgtound-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
@@ -330,8 +335,17 @@ img {
   background-color: #404bbf;
 }
 
+.team-soc-link:focus {
+  background-color: #404bbf;
+}
+
 .team-soc-icon {
   fill: #f4f4fd;
+}
+
+.firt-mate {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio {
@@ -464,7 +478,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-soc-link {
@@ -480,5 +494,9 @@ img {
 }
 
 .footer-soc-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
