@@ -656,9 +656,11 @@ img {
 .modal-label {
   display: block;
   font-size: 12px;
+  line-height: 1.17;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .modal-input {
@@ -704,6 +706,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
+  line-height: 1.17;
 }
 
 .comm-wrap {
@@ -749,16 +752,17 @@ img {
 }
 
 .checkbox-span {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-btn {
   display: block;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -771,4 +775,9 @@ img {
   border: none;
   margin: auto;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
 }
