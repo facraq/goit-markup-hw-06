@@ -473,12 +473,27 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form" >
-         <input class="footer-inp" name="mail" type="email" id="footer-mail" placeholder="E-mail"  >
+        <div class="footer-form">
+          <p class="footer-parag">Subscribe</p>
+          <form class="sub-form">
+            <label
+              ><input
+                class="footer-inp"
+                name="mail"
+                type="email"
+                id="footer-mail"
+                placeholder="E-mail"
+            /></label>
+            <button type="submit" class="footer-form-btn">
+              Subscribe<svg width="24" height="24" class="footer-sub-icon">
+                <use href="/images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
-    <!-- <div class="modal-overlay is-open"> -->
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg width="8" height="8" class="close-svg">
