@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <symbol id="icon-person" viewBox="0 0 32 32">
-      <path d="M16 16a5 5 0 1 0 0-11 5 5 0 0 0 0 11zm0 3c-4 0-11 1-11 5v1l2 2h18l2-2v-1c0-4-7-5-11-5z"/>
-    </symbol>
     <symbol id="icon-mail" viewBox="0 0 24 32">
       <path d="M20 8H4l-2 2v12l2 2h16l2-2V10l-2-2zm0 4-7 5h-2l-7-5 1-1 7 4 7-4a1 1 0 1 1 1 1z"/>
     </symbol>
     <symbol id="icon-phone" viewBox="0 0 24 32">
       <path d="M20 18h-3l-1 1-2 2-7-7 2-2 1-1V8L8 7H6L4 9c1 8 7 14 15 15l2-2v-2l-1-2z"/>
+    </symbol>
+    <symbol id="icon-person" viewBox="0 0 32 32">
+      <path d="M16 16a5 5 0 1 0 0-11 5 5 0 0 0 0 11zm0 3c-4 0-11 1-11 5v1l2 2h18l2-2v-1c0-4-7-5-11-5z"/>
     </symbol>
     <symbol id="icon-send" viewBox="0 0 38 32">
       <path d="M38 0 0 18l12 4L31 7 17 23v9l7-7 8 3 6-28z"/>
