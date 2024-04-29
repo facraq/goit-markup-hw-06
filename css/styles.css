@@ -206,15 +206,15 @@ img {
 
 /*------------------------MAIN-------------------*/
 /*---Hero---*/
-
+/* @media screen and (-webkit-min-devise-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi)  */
 .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/mob-hero.jpg);
-  max-width: 320px;
-  max-height: 432px;
   padding: 72px 52px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1042,7 +1042,6 @@ img {
       ),
       url(../images/desk-hero.jpg);
   }
-
   .about-item {
     width: calc((100% - 3 * 24px) / 4);
   }
