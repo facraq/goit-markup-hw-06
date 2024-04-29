@@ -473,7 +473,9 @@ img {
   flex-wrap: wrap;
   text-align: center;
 }
-
+.footer-logo-wrap {
+  display: inline-block;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -495,6 +497,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 288px;
 }
 
 .footer-soc {
@@ -938,6 +941,12 @@ img {
 
   /*----------Hero----------*/
   .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tab-hero.jpg);
+    margin: 0 auto;
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -986,8 +995,6 @@ img {
   }
 
   .footer-logo-wrap {
-    display: inline-block;
-    text-align: start;
     padding-left: 92px;
   }
 
@@ -1027,6 +1034,15 @@ img {
     max-width: 1158px;
     padding: 0 15px;
   }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desk-hero.jpg);
+  }
+
   .about-item {
     width: calc((100% - 3 * 24px) / 4);
   }
@@ -1082,20 +1098,26 @@ img {
   .footer-wrap {
     display: flex;
     align-items: baseline;
+    flex-wrap: nowrap;
   }
   .footer-logo-wrap {
     padding-left: 0;
     margin-right: 120px;
+  }
+  .footer-logo {
+    padding: 0;
   }
   .footer-soc {
     margin: 0;
     padding: 0;
   }
   .footer-form {
+    display: flex;
+    gap: 24px;
     margin-top: 0;
-    margin-left: auto;
   }
   .footer-parag {
+    display: block;
     padding-left: 80px;
   }
   .sub-form {
