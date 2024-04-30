@@ -180,8 +180,17 @@ img {
   gap: 24px;
 }
 
+.mmenu-address-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .telefon {
-  color: black;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -222,17 +231,7 @@ img {
 
 /*------------------------MAIN-------------------*/
 /*---Hero---*/
-@media screen and (-webkit-min-devise-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/mob-herox2.jpg);
-  }
-}
+
 .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -244,7 +243,18 @@ img {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  margin-bottom: 72px;
+}
+
+@media screen and (-webkit-min-devise-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mob-herox2.jpg);
+  }
 }
 
 .hero-title {
@@ -254,8 +264,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 72px;
   margin: 0 auto;
+  margin-bottom: 72px;
+  max-width: 216px;
 }
 
 .hero-btn {
@@ -532,6 +543,7 @@ img {
 
 .footer-soc {
   margin-top: 72px;
+  margin-bottom: 72px;
 }
 
 .footer-soc-header {
@@ -860,17 +872,6 @@ img {
 
 /*---------------------TABLET-------------------*/
 @media screen and (min-width: 768px) {
-  @media screen and (-webkit-min-devise-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/tab-herox2.jpg);
-    }
-  }
   .container {
     max-width: 768px;
   }
@@ -987,6 +988,18 @@ img {
     padding-bottom: 112px;
   }
 
+  @media screen and (-webkit-min-devise-pixel-ratio: 2) and (min-width: 768px),
+    (min-resolution: 2dppx) and (min-width: 768px),
+    (min-resolution: 192dpi) and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tab-herox2.jpg);
+    }
+  }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -1073,17 +1086,6 @@ img {
   }
 }
 @media screen and (min-width: 1158px) {
-  @media screen and (-webkit-min-devise-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/desk-herox2.jpg);
-    }
-  }
   .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -1107,6 +1109,18 @@ img {
       url(../images/desk-hero.jpg);
     padding-bottom: 188px;
     padding-top: 188px;
+  }
+
+  @media screen and (-webkit-min-devise-pixel-ratio: 2) and (min-width: 1158px),
+    (min-resolution: 2dppx) and (min-width: 1158px),
+    (min-resolution: 192dpi) and (min-width: 1158px) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/desk-herox2.jpg);
+    }
   }
 
   .about {
@@ -1187,7 +1201,7 @@ img {
     padding: 0;
   }
   .footer-soc {
-    margin: 0;
+    margin: 0 80px 0 0;
     padding: 0;
   }
   .footer-form {
@@ -1196,10 +1210,8 @@ img {
   }
   .footer-parag {
     display: block;
-    padding-left: 80px;
   }
   .sub-form {
-    padding-left: 80px;
   }
   .footer-inp {
     opacity: 1;
