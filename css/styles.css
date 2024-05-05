@@ -162,6 +162,10 @@ img {
   color: #2e2f42;
 }
 
+.studio {
+  color: #4d5ae5;
+}
+
 .mmenu-container {
   display: flex;
   width: 100%;
@@ -191,6 +195,7 @@ img {
 }
 
 .telefon {
+  color: #4d5ae5;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -356,7 +361,6 @@ img {
 
 .team-item {
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -371,7 +375,6 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .team-text {
@@ -387,7 +390,6 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 8px;
 }
 
 .team-soc-item {
@@ -417,6 +419,10 @@ img {
 
 .team-soc-icon {
   fill: #f4f4fd;
+}
+
+.team-card {
+  padding: 32px 0px 32px 0px;
 }
 
 /*---Portfolio---*/
